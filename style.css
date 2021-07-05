@@ -4,6 +4,12 @@ body{
 h1{
     font-size: 60px;
 }
+h2{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+}
 .highlight{
     color: #FE492E;
 }
@@ -98,6 +104,9 @@ h1{
     line-height: 80%;
     background-color: #0B0D17;
     color: white;
+}
+.highdark{
+    color: #5B5B5B;
 }
 footer{
     text-align: center;
