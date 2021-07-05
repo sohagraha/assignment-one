@@ -22,7 +22,7 @@ p{
     height: 600px;
 }
 #head{
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top: 10px;
 }
 .button{
@@ -57,7 +57,7 @@ p{
 }
 #about-body{
     padding-left: 10%;
-    padding-top: 150px;
+    padding-top: 120px;
     padding-right: 20%;
 }
 #my-recipies{
