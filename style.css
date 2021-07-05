@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 60px;
+    font-size: 55px;
 }
 h2{
     font-size: 45px;
@@ -23,7 +23,7 @@ p{
 }
 #head{
     padding-left: 100px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .button{
     margin-top: 50px;
@@ -62,8 +62,8 @@ p{
 }
 #my-recipies{
     text-align: center;
-    width: 40%;
-    margin-left: 30%;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 5%;
     margin-bottom: 5%;
     line-height: 160%;
@@ -90,6 +90,7 @@ p{
     margin-top: 8%;
     margin-bottom: 8%;
     text-align: center;
+    box-shadow: 10px 15px 40px rgba(27, 26, 24, 0.842);
    
 }
 .social{
