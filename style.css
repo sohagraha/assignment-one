@@ -92,7 +92,7 @@ p{
 }
 .recipies-three{
     width: 31%;
-    margin-left: 40px;
+    margin-left: 4%;
     padding: 20px;
     border-radius: 5%;
     box-shadow: 10px 20px 40px rgba(27, 26, 24, 0.842);
@@ -109,11 +109,10 @@ p{
     box-shadow: 10px 25px 40px rgba(27, 26, 24, 0.842);
     padding-bottom: 40px;
     border-radius: 30px;
-    
 }
 .social{
     margin-top: 50px;
-    width: 30%;
+    width: 31%;
     line-height: 80%;
 }
 .social-icon{
@@ -123,20 +122,6 @@ p{
 .social-icon img{
     width: 40%;
     height: 40%;
-}
-.footer{
-    padding-top: 20px;
-    padding-bottom: 35px;
-    text-align: center;
-    line-height: 80%;
-    background-color: #0B0D17;
-    color: white;
-}
-.highdark{
-    color: #5B5B5B;
-}
-footer{
-    text-align: center;
 }
 #review-head{
     text-align: center;
@@ -158,5 +143,23 @@ footer{
     border-left: 10px solid;
     border-image: linear-gradient(#dbb81a, #f75409);
     border-image-slice: 1;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+    line-height: 80%;
+    background-color: #0B0D17;
+    color: white;
+}
+.highdark{
+    color: #5B5B5B;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 15px;
 }
 
