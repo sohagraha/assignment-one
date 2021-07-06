@@ -1,6 +1,31 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2%;
+    padding-top: 0;
+    overflow: hidden;
+    background: linear-gradient(0.25turn, #5a340c, #c06122);
+}
+.nav-bar li{
+    display: inline;
+    float: right; 
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #FD5331;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #070707;
+}
 h1{
     font-size: 55px;
 }
@@ -11,11 +36,11 @@ p{
     font-size: 20px;
 }
 .highlight{
+    font-weight: 700;
     color: #FE492E;
 }
 .flex{
     display: flex;
-
 }
 .half-width{
     width: 50%;
@@ -28,13 +53,13 @@ p{
 .button{
     margin-top: 50px;
 }
-.btn{
+.anchor-button{
     text-decoration: none;
-    padding: 10px 20px;
-    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    padding: 10px 25px;
+    background: linear-gradient(0.25turn, #f1922c, #eb6811);
     border-radius: 12px;
     color: white;
-    margin-top: 50px
+    font-weight: 600;
 }
 
 .half-width img{
@@ -66,16 +91,16 @@ p{
     margin-left: 25%;
     margin-top: 5%;
     margin-bottom: 5%;
-    line-height: 160%;
+    line-height: 165%;
 }
 #recipies{
     margin-left: 4%;
     margin-right: 3%;
 }
 .recipies-three{
+    width: 31%;
     margin-left: 25px;
     padding: 20px;
-    width: 31%;
     border-radius: 5%;
     box-shadow: 10px 15px 40px rgba(27, 26, 24, 0.842);
 }
@@ -85,17 +110,14 @@ p{
     border-radius: 5%;
 }
 #social-counts{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin: 7%;
     text-align: center;
     box-shadow: 10px 15px 40px rgba(27, 26, 24, 0.842);
    
 }
 .social{
     width: 30%;
-    line-height: 100%;
+    line-height: 80%;
 }
 
 .footer{
