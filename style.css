@@ -139,12 +139,38 @@ p{
     margin-left: 5%;
     padding: 2%;
     border-radius: 0% 5% 5% 0%;
-    box-shadow: 10px 20px 40px rgba(54, 51, 48, 0.842);
+    box-shadow: 10px 20px 40px rgba(68, 63, 58, 0.842);
     border-left: 10px solid;
     border-image: linear-gradient(#dbb81a, #f75409);
     border-image-slice: 1;
 }
-
+.subscribe{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 3%;
+}
+.subscribe a{
+    margin-left: 20px;
+    padding: 15px 20px;
+    border: 2px solid;
+    border-color: #020202;
+    background-color: #f39c7c;
+    border-radius: 12px;
+    color: white;
+    font-weight: 800;
+}
+.mailbox{
+    font-size: larger;
+    padding:15px 10px;
+    border: 2px solid;
+    border-radius: 3%;
+    background-color: #ebe1de;
+}
+.subscribe img{
+    height: 20px;
+    width: 30px;
+}
 .footer{
     padding-top: 20px;
     padding-bottom: 35px;
@@ -162,4 +188,5 @@ footer{
 footer p{
     font-size: 15px;
 }
+
 
